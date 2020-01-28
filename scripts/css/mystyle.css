@@ -1,0 +1,23 @@
+			div{
+				border: #ff0000 solid 1px;
+				margin: 1px; 
+				float: left;
+			}
+			.newline_ {
+				clear: both;
+				padding: 10px 0px;
+			}
+			form{
+				font-family: Times New Roman;
+				border: #f0f0f0 solid 1px;
+				float: left;
+				padding: 8px;
+			}
+
+			.main{
+				padding: 5px;
+				border: #f0f0f0 solid 1px;
+			}
+			.header{
+				
+			}
