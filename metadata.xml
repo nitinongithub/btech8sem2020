@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--DOCTYPE Address SYSTEM "myfile.dtd"-->
+
+<!DOCTYPE Address[
+		<!ELEMENT Address (name, company, phone) >
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT company (#PCDATA)>
+		<!ELEMENT phone (#PCDATA)>
+
+		<!ENTITY bullet "    ">
+]>
+<Address>
+	<name>Amit</name>
+	<company>BPL</company>
+	<phone>9760020667 &bullet; 9634944223</phone>
+</Address>
